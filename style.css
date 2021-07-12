@@ -1,0 +1,372 @@
+
+@font-face {
+    font-family: "Chalet";
+    src: url(fonts/Chalet-Comprime.ttf);
+}
+@font-face {
+    font-family: "London";
+    src: url(fonts/Chalet-London-NineteenSixty.ttf);
+}
+@font-face {
+    font-family: "Gta";
+    src: url(fonts/PricedownGTAVInt.ttf);
+}
+@font-face {
+    font-family: "Paint";
+    src: url(fonts/SignPainter-HouseScript.ttf);
+}
+
+body {
+    overflow: hidden;
+    background-image: url("./img/bitch.png");
+}
+
+.baseDivHeader {
+    position: absolute;
+    left: 16.2%;
+    top: 8.5%;
+    height: 12%;
+    width: 67.8%;
+    border: 1px;
+}
+
+
+.title {
+    margin-top: 1.5%;
+    color: white;
+    font-family: London;
+    font-size: 2.2vw;
+}
+
+.logo > img {
+    position: absolute;
+    top: 4%;
+    left: 95%;
+    height: 52%;
+    width: 5%;
+}
+.svName {
+    position: absolute;
+    top: 2%;
+    right: 5.5%;
+    color: white;
+    font-family: London;
+    font-size: 1vw;
+}
+
+
+.entrepriseDate {
+    position: absolute;
+    top: 27.5%;
+    right: 5.5%;
+    color: white;
+    font-family: London;
+    font-size: 1vw;
+}
+
+.entrepriseName {
+    position: absolute;
+    top: 10%;
+    right: 5.5%;
+    color: white;
+    font-family: London;
+    font-size: 1vw;
+}
+
+.btn1 {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    height: 31%;
+    width: 33%;
+    opacity: 81.5%;
+    border: 1px;
+    background-color: black;
+}
+
+.btn1 p {
+    position: absolute;
+    left: 15%;
+    top: -32%;
+    color: white;
+    font-family: London;
+    font-size: 1.1vw;
+}
+
+.btn1:hover {
+    border-top: 0.3rem solid;
+    border-top-color: rgb(101, 180, 212);
+}
+.btn2 {
+    position: absolute;
+    left: 33.5%;
+    bottom: 0%;
+    height: 31%;
+    width: 33%;
+    opacity: 81.5%;
+    border: 1px;
+    background-color: black;
+}
+.btn2 p {
+    position: absolute;
+    left: 15%;
+    top: -32%;
+    color: white;
+    font-family: London;
+    font-size: 1.1vw;
+}
+
+.btn2:hover {
+    border-top: 0.3rem solid;
+    border-top-color: rgb(101, 180, 212);
+}
+.btn3 {
+    position: absolute;
+    left: 67.0%;
+    bottom: 0%;
+    height: 31%;
+    width: 33%;
+    opacity: 81.5%;
+    border: 1px;
+    background-color: black;
+}
+
+.btn3:hover {
+    border-top: 0.3rem solid;
+    border-top-color: rgb(101, 180, 212);
+}
+.btn3 p {
+    position: absolute;
+    left: 15%;
+    top: -32%;
+    color: white;
+    font-family: London;
+    font-size: 1.1vw;
+}
+
+.btn4 {
+    position: absolute;
+    left: 50.25%;
+    bottom: 0%;
+    height: 31%;
+    width: 16.48%;
+    border: 1px;
+    background-color: black;
+}
+.btn4 p {
+    position: absolute;
+    left: 20%;
+    top: -40%;
+    color: white;
+    font-family: Paint;
+    font-size: 1.2vw;
+}
+.btn4:hover {
+    border-top: 0.3rem solid;
+    border-top-color: rgb(101, 180, 212);
+}
+
+.btn5 {
+    position: absolute;
+    left: 67%;
+    bottom: 0%;
+    height: 31%;
+    width: 16.48%;
+    border: 1px;
+    background-color: black;
+}
+.btn5 p {
+    position: absolute;
+    left: 20%;
+    top: -40%;
+    color: white;
+    font-family: London;
+    font-size: 1.2vw;
+}
+.btn5:hover {
+    border-top: 0.3rem solid;
+    border-top-color: rgb(101, 180, 212);
+}
+
+.btn6 {
+    position: absolute;
+    left: 83.75%;
+    bottom: 0%;
+    height: 31%;
+    width: 16.48%;
+    border: 1px;
+    background-color: black;
+}
+.btn6 p {
+    position: absolute;
+    left: 7.5%;
+    top: -40%;
+    color: white;
+    font-family: London;
+    font-size: 1.2vw;
+}
+.btn6:hover {
+    border-top: 0.3rem solid;
+    border-top-color: rgb(101, 180, 212);
+}
+
+.btnList1 {
+    position: absolute;
+    left: 16.2%;
+    top: 22.5%;
+    height: 4%;
+    width: 22.45%;
+    border: 1px;
+    opacity: 81.5%;
+    background-color: black;
+}
+
+.btnList1 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4%;
+    color: white;
+    font-family: London;
+    font-size: 1.2vw;
+}
+.btnList2 {
+    position: absolute;
+    left: 16.2%;
+    top: 26.8%;
+    height: 4%;
+    width: 22.45%;
+    border: 1px;
+    opacity: 81.5%;
+    background-color: black;
+}
+
+.btnList2 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4%;
+    color: white;
+    font-family: London;
+    font-size: 1.2vw;
+}
+.btnList3 {
+    position: absolute;
+    left: 16.2%;
+    top: 31.1%;
+    height: 4%;
+    width: 22.45%;
+    border: 1px;
+    opacity: 81.5%;
+    background-color: black;
+}
+
+.btnList3 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4%;
+    color: white;
+    font-family: London;
+    font-size: 1.2vw;
+}
+.btnList4 {
+    position: absolute;
+    left: 16.2%;
+    top: 35.4%;
+    height: 4%;
+    width: 22.45%;
+    border: 1px;
+    opacity: 81.5%;
+    background-color: black;
+}
+
+.btnList4 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4%;
+    color: white;
+    font-family: London;
+    font-size: 1.2vw;
+}
+
+
+
+.btnList21 {
+    position: absolute;
+    left: 16.2%;
+    top: 22.5%;
+    height: 4%;
+    width: 22.45%;
+    border: 1px;
+    opacity: 81.5%;
+    background-color: black;
+}
+
+.btnList21 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4%;
+    color: white;
+    font-family: London;
+    font-size: 1.2vw;
+}
+
+
+
+
+.btnList22 {
+    position: absolute;
+    left: 16.2%;
+    top: 26.8%;
+    height: 4%;
+    width: 22.45%;
+    border: 1px;
+    opacity: 81.5%;
+    background-color: black;
+}
+
+.btnList22 p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4%;
+    color: white;
+    font-family: London;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnList1:hover {
+    opacity: 100%;
+}
+.btnList2:hover {
+    opacity: 100%;
+}
+.btnList3:hover {
+    opacity: 100%;
+}
+.btnList4:hover {
+    opacity: 100%;
+}
+.btnList21:hover {
+    opacity: 100%;
+}
+.btnList22:hover {
+    opacity: 100%;
+}
