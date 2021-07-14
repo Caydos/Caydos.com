@@ -78,7 +78,7 @@ function divShowX(divC) {
 
         } else {
             resetAll()
-            $(".btnList2").css("background-color", "black");
+            $(".btnList21").css("background-color", "black");
             $(".btnList21 p").css("color", "white");
             $(".btnList21").show();
             $(".btnList22").show();
