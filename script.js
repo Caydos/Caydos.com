@@ -31,7 +31,7 @@ function resetAll() {
     $(".btn1").css({"border-top": "", "border-top-color": ""});
     $(".btn2").css({"border-top": "", "border-top-color": ""});
     $(".btn3").css({"border-top": "", "border-top-color": ""});
-    $(".btnList2").css("background-color", "black");
+    $(".btnList21").css("background-color", "black");
     $(".btnList21 p").css("color", "white");
     btnList = false;
     btnList2 = false;
