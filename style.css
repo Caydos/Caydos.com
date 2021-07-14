@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: "Chalet";
     src: url(fonts/Chalet-Comprime.ttf);
@@ -356,9 +355,9 @@ body {
 .sStats h1 {
     position: absolute;
     left: 10%;
-    top: 0%;
+    top: 6%;
     color: rgb(101, 180, 212);
-    font-family: Chalet2;
+    font-family: London;
     font-size: 1.2vw;
 }
 
@@ -366,7 +365,7 @@ body {
     position: absolute;
     margin-top: 0%;
     color: rgb(255, 255, 255);
-    font-family: Chalet2;
+    font-family: London;
     font-size: 1.1vw;
 }
 
