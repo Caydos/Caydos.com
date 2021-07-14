@@ -3,10 +3,7 @@
     font-family: "Chalet";
     src: url(fonts/Chalet-Comprime.ttf);
 }
-@font-face {
-    font-family: "Chalet2";
-    src: url(fonts/ChaletComprime-CologneSixty.ttf);
-}
+
 @font-face {
     font-family: "London";
     src: url(fonts/Chalet-London-NineteenSixty.ttf);
@@ -14,6 +11,10 @@
 @font-face {
     font-family: "Gta";
     src: url(fonts/PricedownGTAVInt.ttf);
+}
+@font-face {
+    font-family: "Light";
+    src: url(fonts/RobotoCondensed-Light.ttf);
 }
 @font-face {
     font-family: "Paint";
@@ -357,7 +358,7 @@ body {
     left: 10%;
     top: 6%;
     color: rgb(101, 180, 212);
-    font-family: London;
+    font-family: Light;
     font-size: 1.2vw;
 }
 
@@ -365,7 +366,7 @@ body {
     position: absolute;
     margin-top: 0%;
     color: rgb(255, 255, 255);
-    font-family: London;
+    font-family: Light;
     font-size: 1.1vw;
 }
 
@@ -374,7 +375,7 @@ body {
     right: 25%;
     top: 6%;
     color: rgb(101, 180, 212);
-    font-family: London;
+    font-family: Light;
     font-size: 1.2vw;
 }
 
@@ -382,7 +383,7 @@ body {
     position: absolute;
     margin-top: 0%;
     color: rgb(255, 255, 255);
-    font-family: London;
+    font-family: Light;
     font-size: 1.1vw;
 }
 
@@ -391,7 +392,7 @@ body {
     left: 10%;
     top: 26%;
     color: rgb(101, 180, 212);
-    font-family: London;
+    font-family: Light;
     font-size: 1.2vw;
 }
 
@@ -399,7 +400,7 @@ body {
     position: absolute;
     margin-top: 0%;
     color: rgb(255, 255, 255);
-    font-family: London;
+    font-family: Light;
     font-size: 1.1vw;
 }
 .sStats h4 {
@@ -407,7 +408,7 @@ body {
     left: 10%;
     top: 26%;
     color: rgb(101, 180, 212);
-    font-family: London;
+    font-family: Light;
     font-size: 1.2vw;
 }
 
@@ -415,7 +416,7 @@ body {
     position: absolute;
     margin-top: 0%;
     color: rgb(255, 255, 255);
-    font-family: London;
+    font-family: Light;
     font-size: 1.1vw;
 }
 .sStats h5 {
@@ -432,10 +433,10 @@ body {
 
 .sStats h5 p {
     color: #000;
-    margin-top: 5%;
-    font-family: London;
+    margin-top: 1.5%;
+    font-family: Light;
     text-align: center;
-    font-size: 0.8vw;
+    font-size: 1vw;
 }
 
 
@@ -449,7 +450,7 @@ body {
     opacity: 60%;
 }
 .btnList4:hover {
-    opacity: 100%;
+    opacity: 60%;
 }
 .btnList21:hover {
     opacity: 60%;
