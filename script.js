@@ -41,7 +41,7 @@ function divShowX(divC) {
     if (divC === "btnList") {
         if (btnList == false) {
             resetAll()
-            $(".btn1").css({"border-top": "0.3rem solid", "border-top-color": "rgb(101, 180, 212)"});
+            $(".btn1").css({"border-top": "0.4rem solid", "border-top-color": "rgb(101, 180, 212)"});
             $(".btnList1").show();
             $(".btnList2").show();
             $(".btnList3").show();
@@ -54,7 +54,7 @@ function divShowX(divC) {
     if (divC === "btnList2") {
         if (btnList2 == false) {
             resetAll()
-            $(".btn2").css({"border-top": "0.3rem solid", "border-top-color": "rgb(101, 180, 212)"});
+            $(".btn2").css({"border-top": "0.4rem solid", "border-top-color": "rgb(101, 180, 212)"});
             $(".btnList21").show();
             $(".btnList22").show();
             btnList2 = true;
@@ -65,7 +65,9 @@ function divShowX(divC) {
     if (divC === "stats") {
         if (stats === false) {
             resetAll()
-            $(".btn2").css({"border-top": "0.3rem solid", "border-top-color": "rgb(101, 180, 212)"});
+            $(".btn2").css({"border-top": "0.4rem solid", "border-top-color": "rgb(101, 180, 212)"});
+            $(".btnList21").css("background-color", "white");
+            $(".btnList21 p").css("color", "black");
             $(".btnList21").show();
             $(".btnList22").show();
             $(".statsTable").show();
@@ -74,7 +76,8 @@ function divShowX(divC) {
 
         } else {
             resetAll()
-            $(".btn2").css({"border-top": "0.3rem solid", "border-top-color": "rgb(101, 180, 212)"});
+            $(".btnList2").css("background-color", "black");
+            $(".btnList21 p").css("color", "white");
             $(".btnList21").show();
             $(".btnList22").show();
             btnList2 = true;
