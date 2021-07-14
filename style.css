@@ -406,7 +406,7 @@ body {
 .sStats h4 {
     position: absolute;
     left: 10%;
-    top: 26%;
+    top: 46%;
     color: rgb(101, 180, 212);
     font-family: Light;
     font-size: 1.2vw;
@@ -422,7 +422,7 @@ body {
 .sStats h5 {
     position: absolute;
     left: 10%;
-    top: 46%;
+    top: 65%;
     height: 6%;
     width: 25%;
     background-color: white;
@@ -438,8 +438,34 @@ body {
     text-align: center;
     font-size: 1vw;
 }
-
-
+.sStats h6 {
+    position: absolute;
+    left: 10%;
+    top: 14%;
+    color: rgb(101, 180, 212);
+    font-family: Light;
+    font-size: 1.2vw;
+}
+.sStats h6 p {
+    color: rgb(57, 138, 49);
+    margin-top: 1.5%;
+    font-family: Light;
+    font-size: 1vw;
+}
+.sStats .h7 h1 {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    color: rgb(101, 180, 212);
+    font-family: Light;
+    font-size: 1.2vw;
+}
+.sStats .h7 h1 p {
+    color: rgb(255, 0, 0);
+    margin-top: 1.5%;
+    font-family: Light;
+    font-size: 1vw;
+}
 .btnList1:hover {
     opacity: 60%;
 }
