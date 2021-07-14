@@ -369,35 +369,76 @@ body {
     font-size: 1.1vw;
 }
 
+.sStats h2 {
+    position: absolute;
+    right: 25%;
+    top: 6%;
+    color: rgb(101, 180, 212);
+    font-family: London;
+    font-size: 1.2vw;
+}
 
 .sStats h2 p {
     position: absolute;
-    right: 10%;
-    bottom: -5%;
-    line-height: 4%;
+    margin-top: 0%;
     color: rgb(255, 255, 255);
-    font-family: Gta;
-    font-size: 4vw; 
+    font-family: London;
+    font-size: 1.1vw;
 }
-.sStats h2 > img {
+
+.sStats h3 {
     position: absolute;
-    color: white;
-    right: -2%;
-    bottom: 3.5%;
-    height: 15%;
-    width: 15%;
-    opacity: 100%;
+    left: 10%;
+    top: 26%;
+    color: rgb(101, 180, 212);
+    font-family: London;
+    font-size: 1.2vw;
 }
+
 .sStats h3 p {
     position: absolute;
-    text-decoration: underline;
-    left: 2%;
-    top: -5%;
-    line-height: 4%;
+    margin-top: 0%;
     color: rgb(255, 255, 255);
-    font-family: Paint;
-    font-size: 3vw; 
+    font-family: London;
+    font-size: 1.1vw;
 }
+.sStats h4 {
+    position: absolute;
+    left: 10%;
+    top: 26%;
+    color: rgb(101, 180, 212);
+    font-family: London;
+    font-size: 1.2vw;
+}
+
+.sStats h4 p {
+    position: absolute;
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+    font-family: London;
+    font-size: 1.1vw;
+}
+.sStats h5 {
+    position: absolute;
+    left: 10%;
+    top: 46%;
+    height: 6%;
+    width: 25%;
+    background-color: white;
+    border-top: 0.4rem solid;
+    border-top-color: rgb(101, 180, 212); 
+}
+
+
+.sStats h5 p {
+    color: #000;
+    margin-top: 5%;
+    font-family: London;
+    text-align: center;
+    font-size: 0.8vw;
+}
+
+
 .btnList1:hover {
     opacity: 60%;
 }
